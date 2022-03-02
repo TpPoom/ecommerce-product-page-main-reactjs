@@ -1,0 +1,118 @@
+.products-container {
+    max-width: 512px;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.product {
+    display: none;
+    width: 100%;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.product.show {
+    display: flex;
+}
+
+.product.show:hover {
+    opacity: .75;
+}
+
+.thumbnail-container {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+    gap: .5rem;
+}
+
+.thumbnail {
+    max-width: 92px;
+    max-height: 92px;
+    border: 2px solid transparent;
+    border-radius: 1rem;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    background-color: transparent;
+    overflow: hidden;
+    padding: 0;
+}
+
+.thumbnail {
+    width: 100%;
+    height: 100%;
+    transition: opacity .25s;
+    background-color: rgb(255, 255, 255);
+}
+
+.thumbnail.active {
+    border: 2px solid rgb(255, 125, 26);
+}
+
+.thumbnail:hover {
+    opacity: 75%;
+}
+
+.mButton {
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .products-container {
+        max-width: 100vw;
+    }
+
+    .product {
+        border-radius: 0;
+    }
+
+    .thumbnail-container {
+        display: none;
+    }
+
+    .product.show:hover {
+        opacity: 1;
+    }
+
+    .mButton {
+        display: none;
+        position: relative;
+        height: 100%;
+    }
+
+    .mButton.active {
+        display: flex;
+    }
+
+    .mPrevious-container {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 45% 0;
+        left: 2rem;
+        height: 54px;
+        width: 54px;
+        background-color: var(--Pale-orange);
+        border-radius: 2rem;
+        cursor: pointer;
+    }
+
+    .mNext-container {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 45% 0;
+        right: 2rem;
+        height: 54px;
+        width: 54px;
+        background-color: var(--Pale-orange);
+        border-radius: 2rem;
+        cursor: pointer;
+    }
+}
