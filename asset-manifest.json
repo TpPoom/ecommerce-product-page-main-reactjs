@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/ecommerce-product-page-main-reactjs/static/css/main.9d291090.chunk.css",
+    "main.js": "/ecommerce-product-page-main-reactjs/static/js/main.353a8f49.chunk.js",
+    "main.js.map": "/ecommerce-product-page-main-reactjs/static/js/main.353a8f49.chunk.js.map",
+    "runtime-main.js": "/ecommerce-product-page-main-reactjs/static/js/runtime-main.858d85cf.js",
+    "runtime-main.js.map": "/ecommerce-product-page-main-reactjs/static/js/runtime-main.858d85cf.js.map",
+    "static/js/2.e0db67c0.chunk.js": "/ecommerce-product-page-main-reactjs/static/js/2.e0db67c0.chunk.js",
+    "static/js/2.e0db67c0.chunk.js.map": "/ecommerce-product-page-main-reactjs/static/js/2.e0db67c0.chunk.js.map",
+    "index.html": "/ecommerce-product-page-main-reactjs/index.html",
+    "static/css/main.9d291090.chunk.css.map": "/ecommerce-product-page-main-reactjs/static/css/main.9d291090.chunk.css.map",
+    "static/js/2.e0db67c0.chunk.js.LICENSE.txt": "/ecommerce-product-page-main-reactjs/static/js/2.e0db67c0.chunk.js.LICENSE.txt",
+    "static/media/icon-cart.539ec608.svg": "/ecommerce-product-page-main-reactjs/static/media/icon-cart.539ec608.svg",
+    "static/media/icon-close.c3904486.svg": "/ecommerce-product-page-main-reactjs/static/media/icon-close.c3904486.svg",
+    "static/media/icon-delete.1fd1f1f7.svg": "/ecommerce-product-page-main-reactjs/static/media/icon-delete.1fd1f1f7.svg",
+    "static/media/icon-menu.c6107d03.svg": "/ecommerce-product-page-main-reactjs/static/media/icon-menu.c6107d03.svg",
+    "static/media/icon-minus.f5073aa8.svg": "/ecommerce-product-page-main-reactjs/static/media/icon-minus.f5073aa8.svg",
+    "static/media/icon-next.9621183a.svg": "/ecommerce-product-page-main-reactjs/static/media/icon-next.9621183a.svg",
+    "static/media/icon-plus.b297868c.svg": "/ecommerce-product-page-main-reactjs/static/media/icon-plus.b297868c.svg",
+    "static/media/icon-previous.80616402.svg": "/ecommerce-product-page-main-reactjs/static/media/icon-previous.80616402.svg",
+    "static/media/image-product-1.520cc50b.jpg": "/ecommerce-product-page-main-reactjs/static/media/image-product-1.520cc50b.jpg",
+    "static/media/image-product-2.c8bb0aac.jpg": "/ecommerce-product-page-main-reactjs/static/media/image-product-2.c8bb0aac.jpg",
+    "static/media/image-product-3.af5c71ba.jpg": "/ecommerce-product-page-main-reactjs/static/media/image-product-3.af5c71ba.jpg",
+    "static/media/image-product-4.9962862e.jpg": "/ecommerce-product-page-main-reactjs/static/media/image-product-4.9962862e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.858d85cf.js",
+    "static/js/2.e0db67c0.chunk.js",
+    "static/css/main.9d291090.chunk.css",
+    "static/js/main.353a8f49.chunk.js"
+  ]
+}
